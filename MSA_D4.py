@@ -1,8 +1,36 @@
 #Use of nested if
-#"""a=int(input("Enter number for a")) | b=int(input("Enter number for b")) | c=int(input("Enter number for c")) | if a>b: |     if a>c: |         print("a is the greatest number",a) |     else: |         print("c is the greatest number",c) | else: |     if b>c: |         print("b is the greatest number",b) |     else: |         print("c is the greatest number",c)"""
+"""a=int(input("Enter number for a"))
+b=int(input("Enter number for b"))
+c=int(input("Enter number for c"))
+if a>b:
+    if a>c:
+        print("a is the greatest number",a)
+    else:
+        print("c is the greatest number",c)
+else:
+    if b>c:
+        print("b is the greatest number",b) | 
+    else:
+        print("c is the greatest number",c)"""
 
 #WAP to make a arithematic calculator
-#"""n1=int(input("Enter number one: ")) | n2=int(input("Enter number two: ")) | ao=input("Enter the Arithmatic Operation to be used: ") | if (ao=="+"): |     print("Sum of",n1,"and",n2,"is = ",n1+n2) | elif (ao=="-"): |     print("Subtraction of",n1,"and",n2,"is = ",n1-n2) | elif (ao=="*"): |     print("Multiplication of",n1,"and",n2,"is = ",n1*n2) | elif (ao=="/"): |     print("Division of",n1,"and",n2,"is = ",n1/n2) | elif (ao=="%"): |     print("Modulus of",n1,"and",n2,"is = ",n1%n2) | elif (ao=="//"): |     print("Floor Division of",n1,"and",n2,"is = ",n1//n2) | else: |     print("You entered invalid Arithmatic Operation ",ao)"""     
+"""n1=int(input("Enter number one: "))
+n2=int(input("Enter number two: "))
+ao=input("Enter the Arithmatic Operation to be used: ")
+if (ao=="+"):
+     print("Sum of",n1,"and",n2,"is = ",n1+n2)
+elif (ao=="-"):
+     print("Subtraction of",n1,"and",n2,"is = ",n1-n2)
+elif (ao=="*"):
+     print("Multiplication of",n1,"and",n2,"is = ",n1*n2)
+elif (ao=="/"):
+     print("Division of",n1,"and",n2,"is = ",n1/n2)
+elif (ao=="%"):
+     print("Modulus of",n1,"and",n2,"is = ",n1%n2)
+elif (ao=="//"):
+     print("Floor Division of",n1,"and",n2,"is = ",n1//n2)
+else:
+     print("You entered invalid Arithmatic Operation ",ao)"""     
 
 #LOOPING STATEMENTS
 
@@ -32,7 +60,7 @@ while (x<=10):
     x+=1"""
 
 #eg four | to print factorial of n term
-n=int(input("Enter number to print its factoria: "))
+"""n=int(input("Enter number to print its factoria: "))
 x=1
 fact=1
 while (x<=n):
@@ -53,4 +81,4 @@ fact=1
 while (x>=1):
     fact=(fact*x)
     x-=1
-print("factorial of",n,"is =",fact)
+print("factorial of",n,"is =",fact)"""
