@@ -1,4 +1,4 @@
-#To print Fibonaci Series using While loop
+#eg five | To print Fibonaci Series using While loop
 """x=0
 n=int(input("Enter the no. ofterms for fibonaci series: "))
 y=1
@@ -21,7 +21,7 @@ while(x<=n):
     b=z
     x+=1"""
 
-#To find if the number is Prime or Not
+#eg six | To find if the number is Prime or Not
 """n=int(input("Enter the no. to check if it isprimeor not: "))
 c=0
 x=1
@@ -35,24 +35,9 @@ else:
     print(n,"is not a prime number")"""
 
 
-#To print prime the numbers upto n term(not correct)
-"""n=int(input("Enter the nth term"))
-
-x=1
-i=1
-while i<=n:
-    c=0
-    while x<=i:
-        if i%x==0:
-            c+=1
-        x+=1
-    if c==2:
-        print(i,"is a prime number")
-    i+=1"""
-
-#FOR LOOP
-
-#Using for loop and extracting elements from list or string
+#______________
+#For Loop(for)
+#eg one | Using for loop and extracting elements from list or string
 """
 '''eg1'''
 x=[10,20,30,"vivek","shlok","yash"]
@@ -65,10 +50,10 @@ for i in x:
     print(i,end=' ')		
 """
 
-#Using for loop with Range Function
+#eg two | Using for loop with Range Function
 """for i in range (0,11):
     print(i)"""
-#using for loop to print fibonaci series
+#eg three | using for loop to print fibonaci series
 """n=int(input("Enter the no. of terms for fibonaci series: "))
 a=0
 b=1
@@ -78,7 +63,7 @@ for i in range(0,n+1):
     a=b
     b=c"""
 
-#To find if the number is Prime or Not
+#eg four | To find if the number is Prime or Not
 """n=int(input("Enter the no. to check if it isprimeor not: "))
 c=0
 for i in range (1,n+1):
@@ -89,14 +74,14 @@ if c==2:
 else:
     print(n,"is not a prime number")"""
 
-#To print factorial of a number
+#eg five | To print factorial of a number
 """n=int(input("Enter a Number: "))
 fact=1
 for i in range(1,n+1):
     fact=fact*i
 print("Factorial of",n,"is= ",fact)"""
 
-#To Print Prime Numbers between 1 and n'th term
+#eg six | To Print Prime Numbers between 1 and n'th term
 """n=int(input("Enter the nth term"))
 
 for i in range(1,n+1):
@@ -105,17 +90,4 @@ for i in range(1,n+1):
         if (i%j==0):
             c+=1
     if (c==2):
-        print(i,end="\t")"""
-        
-
-        
-
-    
-
-
-    
-
-
-
-    
-      
+        print(i,end="\t")""" 
