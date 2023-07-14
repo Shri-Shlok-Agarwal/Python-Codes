@@ -1,3 +1,5 @@
+#______________________________________________________________________________________________
+#INPUT FUNCTION
 #Use of input function
 """name=input('Enter your Name: ')
 print('Name is: ',name)
@@ -43,14 +45,14 @@ print('Sum of a and b: ',(a+b))
 print(type(a))
 print(type(b))"""
 
-#-------------------,
-#CONTROL STATEMENTS |
-#-------------------'
+#_____________________________________________________________________________________________
+#CONTROL STATEMENTS
+#____________
 #if Statement
 """num=int(input("enter a no.: "))
 if (num%2==0):
     print(num," is an even number")"""
-
+#__________________
 #if else statements
 """age=int(input("Enter age: "))
 if (age>=18):
@@ -73,6 +75,7 @@ if (num1>num2):
 else:
         print("Number ",num2," is greater")"""
 
+#_______________________
 #if elif else statements
 """num=int(input("Enter Number: "))
 
