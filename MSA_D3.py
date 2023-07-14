@@ -31,7 +31,8 @@ b=input('Enter no a : ')
 print('value in a is: ',int(a))
 print('value in b is: ',int(b))
 print('Sum of a and b: ',int(a)+int(b))
-print(type(a)) | print(type(b))"""
+print(type(a))
+print(type(b))"""
 
 #Use of input to input no.s and to add them (correct way).
 """a=int(input('Enter no a : '))
