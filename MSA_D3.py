@@ -47,9 +47,9 @@ print(type(b))"""
 #CONTROL STATEMENTS |
 #-------------------'
 #if Statement
-'''num=int(input("enter a no.: "))
+"""num=int(input("enter a no.: "))
 if (num%2==0):
-    print(num," is an even number")'''
+    print(num," is an even number")"""
 
 #if else statements
 """age=int(input("Enter age: "))
@@ -65,7 +65,7 @@ if (num>0):
 else:
         print("No. is Negative")"""
 
-"""#another eg"""
+#another eg
 """num1=int(input("Enter Number 1: "))
 num2=int(input("Enter Number 2: "))
 if (num1>num2):
