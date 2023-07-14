@@ -1,5 +1,25 @@
 #To print Fibonaci Series using While loop
-#"""x=0 | n=int(input("Enter the no. ofterms for fibonaci series: ")) | y=1 | i=1 | while(i<=n): |       print(x) |       z=x+y |       x=y |       y=z |       i+=1 |         #or | n=int(input("Enter the no. ofterms for fibonaci series: ")) | a=-1 | b=1 | x=1 | while(x<=n): |     z=a+b |     print(z) |     a=b |     b=z |     x+=1"""
+"""x=0
+n=int(input("Enter the no. ofterms for fibonaci series: "))
+y=1
+i=1
+while(i<=n):
+    print(x)
+    z=x+y
+    x=y
+    y=z
+    i+=1
+        #or
+n=int(input("Enter the no. ofterms for fibonaci series: "))
+a=-1
+b=1
+x=1
+while(x<=n):
+    z=a+b
+    print(z)
+    a=b
+    b=z
+    x+=1"""
 
 #To find if the number is Prime or Not
 """n=int(input("Enter the no. to check if it isprimeor not: "))
@@ -76,11 +96,18 @@ for i in range(1,n+1):
     fact=fact*i
 print("Factorial of",n,"is= ",fact)"""
 
-#to be done
+#To Print Prime Numbers between 1 and n'th term
 """n=int(input("Enter the nth term"))
-c=0
+
 for i in range(1,n+1):
-    for j in range(1,i+1):"""
+    c=0
+    for j in range(1,i+1):
+        if (i%j==0):
+            c+=1
+    if (c==2):
+        print(i,end="\t")"""
+        
+
         
 
     
