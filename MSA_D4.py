@@ -1,3 +1,4 @@
+#_________________
 #Use of nested if
 """a=int(input("Enter number for a"))
 b=int(input("Enter number for b"))
@@ -12,7 +13,7 @@ else:
         print("b is the greatest number",b) | 
     else:
         print("c is the greatest number",c)"""
-
+#_________________________________________________________________________
 #WAP to make a arithematic calculator
 """n1=int(input("Enter number one: "))
 n2=int(input("Enter number two: "))
@@ -32,17 +33,18 @@ elif (ao=="//"):
 else:
      print("You entered invalid Arithmatic Operation ",ao)"""     
 
+#_________________________________________________________________________________________________________
 #LOOPING STATEMENTS
-
+#_________________
 #using while loop
-"""#eg one to print no. upto 10
-x=1
+#eg one | to print no. upto 10
+"""x=1
 while (x<=10):
     print(x)
     x+=1
 print("\nEND")"""
 
-#eg two to print even no.s in between of n terms
+#eg two | to print even no.s in between of n terms
 """n1=int(input("Enter n1 term: "))
 n2=int(input("Enter n2 term: "))
 x=n1
@@ -52,7 +54,7 @@ while(x>=n1 and x<=n2):
     x+=1
 print("END")"""
 
-#eg three to print table of 2
+#eg three | to print table of 2
 """x=1
 t=
 while (x<=10):
