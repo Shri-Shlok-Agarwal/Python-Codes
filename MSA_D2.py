@@ -1,3 +1,4 @@
+#To Print Data, to modify it and print its type 
 """a=5
 print(a)
 a=7
