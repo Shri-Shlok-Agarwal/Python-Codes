@@ -1,20 +1,46 @@
 #Use of input function
-#"""name=input('Enter your Name: ') | print('Name is: ',name) | print(type(name))"""
+"""name=input('Enter your Name: ')
+print('Name is: ',name)
+print(type(name))"""
 
 #Use of input to input no (wrong way)
-#"""rollno=input('Enter your roll no: ') | print('rollno is: ',rollno) | print(type(rollno))""""
+"""rollno=input('Enter your roll no: ')
+print('rollno is: ',rollno)
+print(type(rollno))""""
 
 #Use of input to input no.s (wrong way).
-#"""a=input('Enter no a :') | b=input('Enter no a : ') | print('value in a is: ',a) | print('value in b is: ',b) | print(type(a)) | print(type(b))"""
+"""a=input('Enter no a :')
+b=input('Enter no a : ')
+print('value in a is: ',a)
+print('value in b is: ',b)
+print(type(a))
+print(type(b))"""
 
 #Use of input to input no.s and to add them (wrong way).
-#"""a=input('Enter no a : ') | b=input('Enter no a : ') | print('value in a is: ',a) | print('value in b is: ',b) | print('Sum of a and b: ',(a+b)) | print(type(a)) | print(type(b))"""
+"""a=input('Enter no a : ')
+b=input('Enter no a : ')
+print('value in a is: ',a)
+print('value in b is: ',b)
+print('Sum of a and b: ',(a+b))
+print(type(a))
+print(type(b))"""
 
 #Use of input to input no.s and to add them (still wrong way).
-#"""a=input('Enter no a : ') | b=input('Enter no a : ') | print('value in a is: ',int(a)) | print('value in b is: ',int(b)) | print('Sum of a and b: ',int(a)+int(b)) | print(type(a)) | print(type(b))"""
+"""a=input('Enter no a : ')
+b=input('Enter no a : ')
+print('value in a is: ',int(a))
+print('value in b is: ',int(b))
+print('Sum of a and b: ',int(a)+int(b))
+print(type(a)) | print(type(b))"""
 
 #Use of input to input no.s and to add them (correct way).
-#"""a=int(input('Enter no a : ')) | b=int(input('Enter no a : ')) | print('value in a is: ',a) | print('value in b is: ',b) | print('Sum of a and b: ',(a+b)) | print(type(a)) | print(type(b))"""
+"""a=int(input('Enter no a : '))
+b=int(input('Enter no a : '))
+print('value in a is: ',a)
+print('value in b is: ',b)
+print('Sum of a and b: ',(a+b))
+print(type(a))
+print(type(b))"""
 
 #-------------------,
 #CONTROL STATEMENTS |
