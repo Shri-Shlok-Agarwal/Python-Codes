@@ -1,4 +1,5 @@
-#To Print Data, to modify it and print its type 
+#DATA TYPES
+#To Print int Data, to modify it and print its type 
 """a=5
 print(a)
 a=7
@@ -61,6 +62,8 @@ print(b[1])"""
 """l=list(range(1,20))
 print(l)"""
 
+#_______________________________________________________________________________________________________________________
+#OPERATORS
 #Arithmetic Operator(+,-,*,/,**,//)
 #RelationshipOperator(>,<,==,>=,<=,!=)
 """a=5
@@ -96,4 +99,3 @@ print(a is b)
 print(a is not b)
 print(id(a))
 print(id(b))"""
-
