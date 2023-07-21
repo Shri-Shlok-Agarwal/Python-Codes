@@ -14,7 +14,7 @@ print(type(name))"""
 #Use of input to input number (wrong way)
 """rollno=input('Enter your roll no: ')
 print('rollno is: ',rollno)
-print(type(rollno))""""
+print(type(rollno))"""
 
 #3.2.2 |________________________________
 #Use of input to input no.s (wrong way).
