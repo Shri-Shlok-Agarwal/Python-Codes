@@ -1,3 +1,6 @@
+#__________________________________________________________________________________________________________________________________________________________________________
+#DAY 05
+
 #eg five | To print Fibonaci Series using While loop
 """x=0
 n=int(input("Enter the no. ofterms for fibonaci series: "))
@@ -35,7 +38,7 @@ else:
     print(n,"is not a prime number")"""
 
 
-#______________
+#5.2 |__________
 #For Loop(for)
 #eg one | Using for loop and extracting elements from list or string
 """
