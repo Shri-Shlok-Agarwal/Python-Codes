@@ -1,15 +1,19 @@
-#______________________________________________________________________________________________
+#1 |___________________________________________________________________________________________________________________
 #INPUT FUNCTION
+
+#1.1 |________________
 #Use of input function
 """name=input('Enter your Name: ')
 print('Name is: ',name)
 print(type(name))"""
 
-#Use of input to input no (wrong way)
+#1.2.1 |_________________________________
+#Use of input to input number (wrong way)
 """rollno=input('Enter your roll no: ')
 print('rollno is: ',rollno)
 print(type(rollno))""""
 
+#1.2.2 |________________________________
 #Use of input to input no.s (wrong way).
 """a=input('Enter no a :')
 b=input('Enter no a : ')
@@ -18,6 +22,7 @@ print('value in b is: ',b)
 print(type(a))
 print(type(b))"""
 
+##1.2.3 |_______________________________________________
 #Use of input to input no.s and to add them (wrong way).
 """a=input('Enter no a : ')
 b=input('Enter no a : ')
@@ -27,6 +32,7 @@ print('Sum of a and b: ',(a+b))
 print(type(a))
 print(type(b))"""
 
+#1.2.4 |______________________________________________________
 #Use of input to input no.s and to add them (still wrong way).
 """a=input('Enter no a : ')
 b=input('Enter no a : ')
@@ -36,6 +42,7 @@ print('Sum of a and b: ',int(a)+int(b))
 print(type(a))
 print(type(b))"""
 
+#1.2.5 |___________________________________________________
 #Use of input to input no.s and to add them (correct way).
 """a=int(input('Enter no a : '))
 b=int(input('Enter no a : '))
@@ -45,14 +52,15 @@ print('Sum of a and b: ',(a+b))
 print(type(a))
 print(type(b))"""
 
-#_____________________________________________________________________________________________
+#2 |___________________________________________________________________________________________________________________________________
 #CONTROL STATEMENTS
-#____________
+
+#2.1 |________
 #if Statement
 """num=int(input("enter a no.: "))
 if (num%2==0):
     print(num," is an even number")"""
-#__________________
+#2.2 |______________
 #if else statements
 """age=int(input("Enter age: "))
 if (age>=18):
@@ -67,7 +75,7 @@ if (num>0):
 else:
         print("No. is Negative")"""
 
-#another eg
+        #another eg
 """num1=int(input("Enter Number 1: "))
 num2=int(input("Enter Number 2: "))
 if (num1>num2):
@@ -75,7 +83,7 @@ if (num1>num2):
 else:
         print("Number ",num2," is greater")"""
 
-#_______________________
+#2.3 |___________________
 #if elif else statements
 """num=int(input("Enter Number: "))
 
