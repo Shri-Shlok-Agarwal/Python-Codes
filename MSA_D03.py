@@ -1,19 +1,22 @@
-#1 |___________________________________________________________________________________________________________________
+#_______________________________________________________________________________________________________________________________________________________________________
+#DAY 03
+
+#3 |___________________________________________________________________________________________________________________
 #INPUT FUNCTION
 
-#1.1 |________________
+#3.1 |________________
 #Use of input function
 """name=input('Enter your Name: ')
 print('Name is: ',name)
 print(type(name))"""
 
-#1.2.1 |_________________________________
+#3.2.1 |_________________________________
 #Use of input to input number (wrong way)
 """rollno=input('Enter your roll no: ')
 print('rollno is: ',rollno)
 print(type(rollno))""""
 
-#1.2.2 |________________________________
+#3.2.2 |________________________________
 #Use of input to input no.s (wrong way).
 """a=input('Enter no a :')
 b=input('Enter no a : ')
@@ -22,7 +25,7 @@ print('value in b is: ',b)
 print(type(a))
 print(type(b))"""
 
-##1.2.3 |_______________________________________________
+#3.2.3 |_______________________________________________
 #Use of input to input no.s and to add them (wrong way).
 """a=input('Enter no a : ')
 b=input('Enter no a : ')
@@ -32,7 +35,7 @@ print('Sum of a and b: ',(a+b))
 print(type(a))
 print(type(b))"""
 
-#1.2.4 |______________________________________________________
+#3.2.4 |______________________________________________________
 #Use of input to input no.s and to add them (still wrong way).
 """a=input('Enter no a : ')
 b=input('Enter no a : ')
@@ -42,7 +45,7 @@ print('Sum of a and b: ',int(a)+int(b))
 print(type(a))
 print(type(b))"""
 
-#1.2.5 |___________________________________________________
+#3.2.5 |___________________________________________________
 #Use of input to input no.s and to add them (correct way).
 """a=int(input('Enter no a : '))
 b=int(input('Enter no a : '))
@@ -52,15 +55,15 @@ print('Sum of a and b: ',(a+b))
 print(type(a))
 print(type(b))"""
 
-#2 |___________________________________________________________________________________________________________________________________
+#4 |___________________________________________________________________________________________________________________________________
 #CONTROL STATEMENTS
 
-#2.1 |________
+#4.1 |________
 #if Statement
 """num=int(input("enter a no.: "))
 if (num%2==0):
     print(num," is an even number")"""
-#2.2 |______________
+#4.2 |______________
 #if else statements
 """age=int(input("Enter age: "))
 if (age>=18):
@@ -83,7 +86,7 @@ if (num1>num2):
 else:
         print("Number ",num2," is greater")"""
 
-#2.3 |___________________
+#4.3 |___________________
 #if elif else statements
 """num=int(input("Enter Number: "))
 
