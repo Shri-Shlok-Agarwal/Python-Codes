@@ -234,6 +234,6 @@ btn1 = Button(First,text ="Login",width=10,pady=5,bg="orange",activebackground="
 btn1.place(x=510,y=262)
 
 #Our Intro
-Label(First,text="Maded by:\n\t~Shlok Agarwal\n\t   ~Vishal Chauhan",bg="floral white",font=("Arial",12,"italic")).place(x=970,y=370)
+Label(First,text="Maded by:\n\t  ~Shlok Agarwal",bg="floral white",font=("Arial",12,"italic")).place(x=970,y=370)
 
 First.mainloop()
